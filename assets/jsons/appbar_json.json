@@ -1,0 +1,1076 @@
+{
+  "scaffold": {
+    "type": "scaffold",
+    "backgroundColor": "#FFFFFF",
+    "appBar": {
+      "type": "AppBar",
+      "properties": {
+        "backgroundColor": "#6200EA",
+        "elevation": 4,
+        "title": {
+          "data": "Scaffold AppBar",
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#FFFFFF"
+          }
+        },
+        "actions": [
+          {
+            "type": "Icon",
+            "iconCode": "f3eb",
+            "iconType": "Brands",
+            "color": "#FFFFFF",
+            "size": 24
+          },
+          {
+            "type": "Icon",
+            "iconCode": "f004",
+            "iconType": "Regular",
+            "color": "#FFFFFF",
+            "size": 24
+          },
+          {
+            "type": "Icon",
+            "iconCode": "f218",
+            "iconType": "Solid",
+            "color": "#FFFFFF",
+            "size": 24
+          }
+        ]
+      }
+    }
+  },
+  "body": {
+    "type": "Container",
+    "properties": {
+      "padding": {
+        "padding_all": 8
+      }
+    },
+    "child": {
+      "type": "Column",
+      "properties": {
+        "padding": {
+          "padding_all": 8
+        }
+      },
+      "children": [
+        {
+          "type": "Expanded",
+          "child": {
+            "type": "Container",
+            "properties": {
+              "padding": {
+                "padding_all": 10
+              }
+            },
+            "child": {
+              "type": "SingleChildScrollView",
+              "properties": {
+                "scrollDirection": "vertical",
+                "padding": {
+                  "padding_all": 0
+                }
+              },
+              "child": {
+                "type": "Column",
+                "properties": {
+                  "padding": {
+                    "padding_all": 0
+                  },
+                  "crossAxisAlignment": "start"
+                },
+                "children": [
+                  {
+                    "type": "Banner",
+                    "properties": {
+                      "images": [
+                        "https://cdn.pixabay.com/photo/2020/08/31/20/22/abstract-5533509_1280.png",
+                        "https://cdn.pixabay.com/photo/2015/10/29/14/38/web-1012467_1280.jpg",
+                        "https://cdn.pixabay.com/photo/2022/05/10/08/12/abstract-7186364_1280.png",
+                        "https://cdn.pixabay.com/photo/2020/08/31/20/23/abstract-5533510_1280.png"
+                      ],
+                      "height": 200,
+                      "autoPlay": true,
+                      "viewportFraction": 1.0
+                    }
+                  },
+                  {
+                    "type": "SizedBox",
+                    "height": 10
+                  },
+                  {
+                    "type": "Text",
+                    "data": "BUY FURNITURE",
+                    "textAlign": "center",
+                    "style": {
+                      "fontSize": 18,
+                      "fontWeight": "bold",
+                      "color": "#000000"
+                    }
+                  },
+                  {
+                    "type": "Grid",
+                    "properties": {
+                      "iconColor": "#13A085",
+                      "labelColor": "#000000",
+                      "columns": 4
+                    },
+                    "items": [
+                      {
+                        "iconCode": "f37d",
+                        "iconType": "Brands",
+                        "label": "Living Room"
+                      },
+                      {
+                        "iconCode": "f420",
+                        "iconType": "Brands",
+                        "label": "Bedroom"
+                      },
+                      {
+                        "iconCode": "f16b",
+                        "iconType": "Brands",
+                        "label": "Storage"
+                      },
+                      {
+                        "iconCode": "f37d",
+                        "iconType": "Brands",
+                        "label": "Study"
+                      },
+                      {
+                        "iconCode": "f420",
+                        "iconType": "Brands",
+                        "label": "Dining"
+                      },
+                      {
+                        "iconCode": "f16b",
+                        "iconType": "Brands",
+                        "label": "Tables"
+                      },
+                      {
+                        "iconCode": "f37d",
+                        "iconType": "Brands",
+                        "label": "Chairs"
+                      },
+                      {
+                        "iconCode": "f420",
+                        "iconType": "Brands",
+                        "label": "Z Rated"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Row",
+                    "properties": {
+                      "mainAxisAlignment": "spacebetween"
+                    },
+                    "items": [
+                      {
+                        "type": "Expanded",
+                        "child": {
+                          "type": "Container",
+                          "properties": {
+                            "height": 150,
+                            "borderRadius": 10,
+                            "gradient": {
+                              "colors": [
+                                "#D4E7FE",
+                                "#A1C4FD"
+                              ],
+                              "begin": "topLeft",
+                              "end": "bottomRight",
+                              "tileMode": "clamp"
+                            },
+                            "padding": {
+                              "padding_left": 8
+                            }
+                          },
+                          "child": {
+                            "type": "Column",
+                            "properties": {
+                              "crossAxisAlignment": "center",
+                              "mainAxisAlignment": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "Icon",
+                                "iconCode": "f0e0",
+                                "iconType": "Solid",
+                                "size": 40,
+                                "color": "#000000"
+                              },
+                              {
+                                "type": "Text",
+                                "data": "BUY",
+                                "style": {
+                                  "fontSize": 14,
+                                  "fontWeight": "bold",
+                                  "color": "#000000"
+                                }
+                              },
+                              {
+                                "type": "Row",
+                                "properties": {
+                                  "mainAxisAlignment": "center"
+                                },
+                                "items": [
+                                  {
+                                    "type": "Text",
+                                    "data": "Brand New",
+                                    "style": {
+                                      "fontSize": 16,
+                                      "fontWeight": "bold",
+                                      "color": "#000000"
+                                    }
+                                  },
+                                  {
+                                    "type": "SizedBox",
+                                    "width": 10
+                                  },
+                                  {
+                                    "type": "Icon",
+                                    "iconCode": "f178",
+                                    "iconType": "Solid",
+                                    "size": 16,
+                                    "color": "#000000"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "type": "Expanded",
+                        "child": {
+                          "type": "Container",
+                          "properties": {
+                            "height": 150,
+                            "borderRadius": 10,
+                            "gradient": {
+                              "colors": [
+                                "#0be3e3",
+                                "#c1dede"
+                              ],
+                              "begin": "topLeft",
+                              "end": "bottomRight",
+                              "tileMode": "clamp"
+                            },
+                            "padding": {
+                              "padding_left": 8
+                            }
+                          },
+                          "child": {
+                            "type": "Column",
+                            "properties": {
+                              "crossAxisAlignment": "center",
+                              "mainAxisAlignment": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "Icon",
+                                "iconCode": "f1b8",
+                                "iconType": "Solid",
+                                "size": 40,
+                                "color": "#000000"
+                              },
+                              {
+                                "type": "Text",
+                                "data": "SELL",
+                                "style": {
+                                  "fontSize": 14,
+                                  "fontWeight": "bold",
+                                  "color": "#000000"
+                                }
+                              },
+                              {
+                                "type": "Row",
+                                "properties": {
+                                  "mainAxisAlignment": "center"
+                                },
+                                "items": [
+                                  {
+                                    "type": "Text",
+                                    "data": "Refurbished",
+                                    "style": {
+                                      "fontSize": 16,
+                                      "fontWeight": "bold",
+                                      "color": "#000000"
+                                    }
+                                  },
+                                  {
+                                    "type": "SizedBox",
+                                    "width": 10
+                                  },
+                                  {
+                                    "type": "Icon",
+                                    "iconCode": "f178",
+                                    "iconType": "Solid",
+                                    "size": 16,
+                                    "color": "#000000"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Row",
+                    "properties": {
+                      "mainAxisAlignment": "spacebetween",
+                      "padding": {
+                        "padding_all": 8
+                      }
+                    },
+                    "items": [
+                      {
+                        "type": "Expanded",
+                        "child": {
+                          "type": "Text",
+                          "data": "Offers & Discounts",
+                          "style": {
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                            "color": "#000000"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Row",
+                        "properties": {
+                          "mainAxisAlignment": "end"
+                        },
+                        "items": [
+                          {
+                            "type": "Text",
+                            "data": "Sell All",
+                            "style": {
+                              "fontSize": 14,
+                              "color": "#000000"
+                            }
+                          },
+                          {
+                            "type": "SizedBox",
+                            "width": 2
+                          },
+                          {
+                            "type": "Icon",
+                            "iconCode": "f178",
+                            "iconType": "Solid",
+                            "size": 14,
+                            "color": "#808080"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "SingleChildScrollView",
+                    "properties": {
+                      "scrollDirection": "horizontal",
+                      "padding": {
+                        "padding_all": 8
+                      }
+                    },
+                    "child": {
+                      "type": "Row",
+                      "properties": {
+                        "mainAxisAlignment": "spaceBetween"
+                      },
+                      "items": [
+                        {
+                          "type": "Container",
+                          "properties": {
+                            "height": 100,
+                            "width": 250,
+                            "color": "#FFF8DC",
+                            "borderRadius": 10,
+                            "padding": {
+                              "padding_all": 10
+                            },
+                            "margin": {
+                              "margin_left": 5
+                            }
+                          },
+                          "child": {
+                            "type": "Row",
+                            "properties": {
+                              "mainAxisAlignment": "spacebetween",
+                              "crossAxisAlignment": "center",
+                              "padding": {
+                                "padding_all": 5
+                              }
+                            },
+                            "items": [
+                              {
+                                "type": "Expanded",
+                                "properties": {
+                                  "flex": 2
+                                },
+                                "child": {
+                                  "type": "Icon",
+                                  "iconCode": "f268",
+                                  "iconType": "Brands",
+                                  "color": "#1E90FF",
+                                  "size": 32
+                                }
+                              },
+                              {
+                                "type": "Expanded",
+                                "properties": {
+                                  "flex": 8
+                                },
+                                "child": {
+                                  "type": "Column",
+                                  "properties": {
+                                    "crossAxisAlignment": "start",
+                                    "mainAxisAlignment": "center"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "Text",
+                                      "data": "Extra ₹100 off on SBI",
+                                      "style": {
+                                        "fontSize": 16,
+                                        "fontWeight": "bold",
+                                        "color": "#000000"
+                                      }
+                                    },
+                                    {
+                                      "type": "SizedBox",
+                                      "properties": {
+                                        "height": 4
+                                      }
+                                    },
+                                    {
+                                      "type": "Text",
+                                      "data": "Applicable on SBI Credit card\nNo code required",
+                                      "overflow": "ellipsis",
+                                      "style": {
+                                        "fontSize": 14,
+                                        "color": "#888888"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "Container",
+                          "properties": {
+                            "height": 100,
+                            "width": 250,
+                            "color": "#FFF8DC",
+                            "borderRadius": 10,
+                            "padding": {
+                              "padding_all": 5
+                            },
+                            "margin": {
+                              "margin_left": 5
+                            }
+                          },
+                          "child": {
+                            "type": "Row",
+                            "properties": {
+                              "mainAxisAlignment": "spacebetween",
+                              "crossAxisAlignment": "center",
+                              "padding": {
+                                "padding_all": 5
+                              }
+                            },
+                            "items": [
+                              {
+                                "type": "Expanded",
+                                "properties": {
+                                  "flex": 2
+                                },
+                                "child": {
+                                  "type": "Icon",
+                                  "iconCode": "f4d3",
+                                  "iconType": "Solid",
+                                  "color": "#FBC02D",
+                                  "size": 32
+                                }
+                              },
+                              {
+                                "type": "Expanded",
+                                "properties": {
+                                  "flex": 8
+                                },
+                                "child": {
+                                  "type": "Column",
+                                  "properties": {
+                                    "crossAxisAlignment": "start",
+                                    "mainAxisAlignment": "center"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "Text",
+                                      "data": "Extra ₹150 off on Axis Bank",
+                                      "style": {
+                                        "fontSize": 16,
+                                        "fontWeight": "bold",
+                                        "color": "#000000"
+                                      }
+                                    },
+                                    {
+                                      "type": "SizedBox",
+                                      "properties": {
+                                        "height": 4
+                                      }
+                                    },
+                                    {
+                                      "type": "Text",
+                                      "data": "Get flat off 15% on Axis Bank Credit Card",
+                                      "overflow": "ellipsis",
+                                      "style": {
+                                        "fontSize": 14,
+                                        "color": "#888888"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Row",
+                    "properties": {
+                      "mainAxisAlignment": "spacebetween",
+                      "padding": {
+                        "padding_all": 8
+                      }
+                    },
+                    "items": [
+                      {
+                        "type": "Expanded",
+                        "properties": {
+                          "flex": 7
+                        },
+                        "child": {
+                          "type": "Row",
+                          "properties": {
+                            "mainAxisAlignment": "start"
+                          },
+                          "items": [
+                            {
+                              "type": "Container",
+                              "properties": {
+                                "color": "#1E90FF",
+                                "borderRadius": 10,
+                                "height": 35,
+                                "width": 35
+                              },
+                              "child": {
+                                "type": "Center",
+                                "child": {
+                                  "type": "Icon",
+                                  "iconCode": "f529",
+                                  "iconType": "Solid",
+                                  "size": 24,
+                                  "color": "#FFFFFF"
+                                }
+                              }
+                            },
+                            {
+                              "type": "SizedBox",
+                              "width": 10
+                            },
+                            {
+                              "type": "Column",
+                              "properties": {
+                                "crossAxisAlignment": "start",
+                                "mainAxisAlignment": "center"
+                              },
+                              "children": [
+                                {
+                                  "type": "Text",
+                                  "data": "Deal of the day",
+                                  "style": {
+                                    "fontSize": 18,
+                                    "fontWeight": "bold",
+                                    "color": "#000000"
+                                  }
+                                },
+                                {
+                                  "type": "SizedBox",
+                                  "properties": {
+                                    "height": 2
+                                  }
+                                },
+                                {
+                                  "type": "Text",
+                                  "data": "To buy",
+                                  "style": {
+                                    "fontSize": 14,
+                                    "color": "#888888"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Expanded",
+                        "properties": {
+                          "flex": 3
+                        },
+                        "child": {
+                          "type": "Container",
+                          "properties": {
+                            "height": 30,
+                            "width": 30
+                          },
+                          "child": {
+                            "type": "Row",
+                            "properties": {
+                              "mainAxisAlignment": "end"
+                            },
+                            "items": [
+                              {
+                                "type": "Text",
+                                "data": "View All",
+                                "style": {
+                                  "fontSize": 14,
+                                  "color": "#000000"
+                                }
+                              },
+                              {
+                                "type": "SizedBox",
+                                "width": 2
+                              },
+                              {
+                                "type": "Icon",
+                                "iconCode": "f178",
+                                "iconType": "Solid",
+                                "size": 14,
+                                "color": "#808080"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ListViewBuilder",
+                    "properties": {
+                      "scrollDirection": "horizontal",
+                      "shrinkWrap": true,
+                      "height": 250
+                    },
+                    "items": [
+                      {
+                        "type": "Container",
+                        "properties": {
+                          "height": 250,
+                          "width": 200,
+                          "color": "#FFFFFF",
+                          "borderRadius": 10,
+                          "alignment": "center",
+                          "padding": {
+                            "padding_all": 4
+                          }
+                        },
+                        "child": {
+                          "type": "Column",
+                          "properties": {
+                            "mainAxisAlignment": "spaceBetween",
+                            "crossAxisAlignment": "center"
+                          },
+                          "children": [
+                            {
+                              "type": "Container",
+                              "properties": {
+                                "height": 180,
+                                "width": 200,
+                                "color": "#F5F5F5",
+                                "alignment": "center",
+                                "padding": {
+                                  "padding_all": 0
+                                }
+                              },
+                              "child": {
+                                "type": "CachedNetworkImage",
+                                "properties": {
+                                  "url": "https://st4.depositphotos.com/12982378/19868/i/450/depositphotos_198688066-stock-photo-cozy-empty-modern-grey-armchair.jpg",
+                                  "fit": "cover"
+                                }
+                              }
+                            },
+                            {
+                              "type": "Container",
+                              "properties": {
+                                "height": 20,
+                                "width": 200,
+                                "color": "#FFFFFF",
+                                "alignment": "center",
+                                "padding": {
+                                  "padding_all": 0
+                                }
+                              },
+                              "child": {
+                                "type": "padding",
+                                "properties": {
+                                  "symmetric": {
+                                    "horizontal": 8
+                                  }
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "data": "Flex 3 Seater Magic Best Sofa Here",
+                                  "overflow": "ellipsis",
+                                  "style": {
+                                    "fontSize": 14,
+                                    "fontWeight": "bold",
+                                    "color": "#000000"
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "type": "Container",
+                              "properties": {
+                                "height": 40,
+                                "width": 200,
+                                "color": "#FDD835",
+                                "alignment": "center",
+                                "borderRadius": {
+                                  "topLeft": 0,
+                                  "topRight": 0,
+                                  "bottomLeft": 10,
+                                  "bottomRight": 10
+                                },
+                                "padding": {
+                                  "padding_all": 0
+                                }
+                              },
+                              "child": {
+                                "type": "Text",
+                                "data": "-74% OFF on ₹10,499",
+                                "style": {
+                                  "fontSize": 14,
+                                  "fontWeight": "bold",
+                                  "color": "#000000"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Container",
+                        "properties": {
+                          "height": 250,
+                          "width": 200,
+                          "color": "#FFFFFF",
+                          "borderRadius": 10,
+                          "alignment": "center",
+                          "padding": {
+                            "padding_all": 4
+                          }
+                        },
+                        "child": {
+                          "type": "Column",
+                          "properties": {
+                            "mainAxisAlignment": "spaceBetween",
+                            "crossAxisAlignment": "center"
+                          },
+                          "children": [
+                            {
+                              "type": "Container",
+                              "properties": {
+                                "height": 180,
+                                "width": 200,
+                                "color": "#F5F5F5",
+                                "alignment": "center",
+                                "padding": {
+                                  "padding_all": 0
+                                }
+                              },
+                              "child": {
+                                "type": "CachedNetworkImage",
+                                "properties": {
+                                  "url": "https://www.shutterstock.com/image-vector/vector-realistic-yellow-armchair-3d-600nw-2239751635.jpg",
+                                  "fit": "cover"
+                                }
+                              }
+                            },
+                            {
+                              "type": "Container",
+                              "properties": {
+                                "height": 20,
+                                "width": 200,
+                                "color": "#FFFFFF",
+                                "alignment": "center",
+                                "padding": {
+                                  "padding_all": 0
+                                }
+                              },
+                              "child": {
+                                "type": "padding",
+                                "properties": {
+                                  "symmetric": {
+                                    "horizontal": 8
+                                  }
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "data": "Flex 3 Seater Magic Best Sofa Here",
+                                  "overflow": "ellipsis",
+                                  "style": {
+                                    "fontSize": 14,
+                                    "fontWeight": "bold",
+                                    "color": "#000000"
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "type": "Container",
+                              "properties": {
+                                "height": 40,
+                                "width": 200,
+                                "color": "#FDD835",
+                                "alignment": "center",
+                                "borderRadius": {
+                                  "topLeft": 0,
+                                  "topRight": 0,
+                                  "bottomLeft": 10,
+                                  "bottomRight": 10
+                                },
+                                "padding": {
+                                  "padding_all": 0
+                                }
+                              },
+                              "child": {
+                                "type": "Text",
+                                "data": "-74% OFF on ₹10,499",
+                                "style": {
+                                  "fontSize": 14,
+                                  "fontWeight": "bold",
+                                  "color": "#000000"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Container",
+                        "properties": {
+                          "height": 250,
+                          "width": 200,
+                          "color": "#FFFFFF",
+                          "borderRadius": 10,
+                          "alignment": "center",
+                          "padding": {
+                            "padding_all": 4
+                          }
+                        },
+                        "child": {
+                          "type": "Column",
+                          "properties": {
+                            "mainAxisAlignment": "spaceBetween",
+                            "crossAxisAlignment": "center"
+                          },
+                          "children": [
+                            {
+                              "type": "Container",
+                              "properties": {
+                                "height": 180,
+                                "width": 200,
+                                "color": "#F5F5F5",
+                                "alignment": "center",
+                                "padding": {
+                                  "padding_all": 0
+                                }
+                              },
+                              "child": {
+                                "type": "CachedNetworkImage",
+                                "properties": {
+                                  "url": "https://st4.depositphotos.com/12982378/19868/i/450/depositphotos_198688066-stock-photo-cozy-empty-modern-grey-armchair.jpg",
+                                  "fit": "cover"
+                                }
+                              }
+                            },
+                            {
+                              "type": "Container",
+                              "properties": {
+                                "height": 20,
+                                "width": 200,
+                                "color": "#FFFFFF",
+                                "alignment": "center",
+                                "padding": {
+                                  "padding_all": 0
+                                }
+                              },
+                              "child": {
+                                "type": "padding",
+                                "properties": {
+                                  "symmetric": {
+                                    "horizontal": 8
+                                  }
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "data": "Flex 3 Seater Magic Best Sofa Here",
+                                  "overflow": "ellipsis",
+                                  "style": {
+                                    "fontSize": 14,
+                                    "fontWeight": "bold",
+                                    "color": "#000000"
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "type": "Container",
+                              "properties": {
+                                "height": 40,
+                                "width": 200,
+                                "color": "#FDD835",
+                                "alignment": "center",
+                                "borderRadius": {
+                                  "topLeft": 0,
+                                  "topRight": 0,
+                                  "bottomLeft": 10,
+                                  "bottomRight": 10
+                                },
+                                "padding": {
+                                  "padding_all": 0
+                                }
+                              },
+                              "child": {
+                                "type": "Text",
+                                "data": "-74% OFF on ₹10,499",
+                                "style": {
+                                  "fontSize": 14,
+                                  "fontWeight": "bold",
+                                  "color": "#000000"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Container",
+                        "properties": {
+                          "height": 250,
+                          "width": 200,
+                          "color": "#FFFFFF",
+                          "borderRadius": 10,
+                          "alignment": "center",
+                          "padding": {
+                            "padding_all": 4
+                          }
+                        },
+                        "child": {
+                          "type": "Column",
+                          "properties": {
+                            "mainAxisAlignment": "spaceBetween",
+                            "crossAxisAlignment": "center"
+                          },
+                          "children": [
+                            {
+                              "type": "Container",
+                              "properties": {
+                                "height": 180,
+                                "width": 200,
+                                "color": "#F5F5F5",
+                                "alignment": "center",
+                                "padding": {
+                                  "padding_all": 0
+                                }
+                              },
+                              "child": {
+                                "type": "CachedNetworkImage",
+                                "properties": {
+                                  "url": "https://www.shutterstock.com/image-vector/vector-realistic-yellow-armchair-3d-600nw-2239751635.jpg",
+                                  "fit": "cover"
+                                }
+                              }
+                            },
+                            {
+                              "type": "Container",
+                              "properties": {
+                                "height": 20,
+                                "width": 200,
+                                "color": "#FFFFFF",
+                                "alignment": "center",
+                                "padding": {
+                                  "padding_all": 0
+                                }
+                              },
+                              "child": {
+                                "type": "padding",
+                                "properties": {
+                                  "symmetric": {
+                                    "horizontal": 8
+                                  }
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "data": "Flex 3 Seater Magic Best Sofa Here",
+                                  "overflow": "ellipsis",
+                                  "style": {
+                                    "fontSize": 14,
+                                    "fontWeight": "bold",
+                                    "color": "#000000"
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "type": "Container",
+                              "properties": {
+                                "height": 40,
+                                "width": 200,
+                                "color": "#FDD835",
+                                "alignment": "center",
+                                "borderRadius": {
+                                  "topLeft": 0,
+                                  "topRight": 0,
+                                  "bottomLeft": 10,
+                                  "bottomRight": 10
+                                },
+                                "padding": {
+                                  "padding_all": 0
+                                }
+                              },
+                              "child": {
+                                "type": "Text",
+                                "data": "-74% OFF on ₹10,499",
+                                "style": {
+                                  "fontSize": 14,
+                                  "fontWeight": "bold",
+                                  "color": "#000000"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
