@@ -44,11 +44,4 @@ Follow these steps to set up and run the project:
    flutter build apk
    ```
 
----
 
-## Installation Requirements
-
-- **Flutter SDK**: Version 3.0.0 or higher.
-- **Dart**: Version 2.15.0 or higher.
-
-# ServerDrivenUI
