@@ -93,7 +93,6 @@ Widget renderBody(Map<String, dynamic> widgetData) {
                     .toList()
                 : [],
       );
-
     case 'Banner':
       return CarouselSlider(
         options: CarouselOptions(
@@ -403,7 +402,6 @@ Widget renderBody(Map<String, dynamic> widgetData) {
           child: Icon(Icons.error, color: Colors.red),
         ),
       );
-
     case 'ClipRRect':
       final double? borderRadius =
           widgetData['properties']?['borderRadius']?.toDouble() ?? 0.0;
@@ -413,7 +411,6 @@ Widget renderBody(Map<String, dynamic> widgetData) {
             ? renderBody(widgetData['child'])
             : const SizedBox.shrink(),
       );
-
     default:
       return const SizedBox.shrink();
   }

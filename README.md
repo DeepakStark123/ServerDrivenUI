@@ -1,5 +1,5 @@
 
-# Ease My Deal
+# Server Driven UI
 
 A Flutter application showcasing dynamic UI rendering capabilities.
 
